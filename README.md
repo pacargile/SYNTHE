@@ -14,13 +14,13 @@ You will also need to grab either an rgfall line list from e.g., Bob's website, 
 
 gfall file:
 
-https://www.dropbox.com/s/ak237xfkkz1dnqj/gfall18feb16.dat
+<https://www.dropbox.com/s/ak237xfkkz1dnqj/gfall18feb16.dat>
 
 or 
 
 binary master line list file:
 
-https://www.dropbox.com/s/0fwqzorab1xdn8l/KuruczLL_1400_1900.bin.gz
+<https://www.dropbox.com/s/0fwqzorab1xdn8l/KuruczLL_1400_1900.bin.gz>
 
 (Be sure to gunzip the binary master line list file!)
 
