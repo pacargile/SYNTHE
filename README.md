@@ -22,6 +22,8 @@ binary master line list file:
 
 https://www.dropbox.com/s/6fs0lfqbmixwidx/CargileLL_1400_1900.bin.gz
 
+(Be sure to gunzip the binary master line list file!)
+
 ## Tests
 
 There is an example test script in test/ that runs end-to-end (No broadening right now, this will change).
