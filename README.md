@@ -16,7 +16,7 @@ There is an example test script in test/ that runs end-to-end (No broadening rig
 
 ## Contributors
 
-Phill Cargile
-Bob Kurucz
-Charlie Conroy
-Yuan-Sen Ting
+- Phill Cargile
+- Bob Kurucz
+- Charlie Conroy
+- Yuan-Sen Ting
