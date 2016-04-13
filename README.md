@@ -20,7 +20,7 @@ or
 
 binary master line list file:
 
-https://www.dropbox.com/s/6fs0lfqbmixwidx/CargileLL_1400_1900.bin.gz
+https://www.dropbox.com/s/0fwqzorab1xdn8l/KuruczLL_1400_1900.bin.gz
 
 (Be sure to gunzip the binary master line list file!)
 
