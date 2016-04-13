@@ -5,7 +5,7 @@ rm -rf modatm
 
 echo "SYNBEG"
 ../bin/synbeg.exe <<EOF
-VAC       1495.0    1705.0    300000.     0.00    0     30    .0001     1    0
+VAC       1500.0    1701.2    300000.     0.00    0     30    .0001     1    0
 AIRorVAC  WLBEG     WLEND     RESOLU    TURBV  IFNLTE LINOUT CUTOFF        NREAD
 EOF
 
@@ -43,8 +43,15 @@ echo "SPECTRV"
 ../bin/spectrv.exe > /dev/null
 echo ""
 
+echo "ROTATE"
+cp ./fort.7 ./fort.1
+../bin/rotate.exe  <<EOF
+    1
+-2.020
+EOF
+
 #convert the spectrum into an ascii file
-mv fort.7 fort.1
-echo "syntoascanga"
+mv ROT1 fort.1
+echo "running syntoascanga..."
 ../bin/syntoascanga.exe > /dev/null
 
