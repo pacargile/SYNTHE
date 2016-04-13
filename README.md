@@ -10,7 +10,7 @@ make synthe install clean
 
 Requires Intel's IFORT as this is the only compiler that Bob supports for SYNTHE.
 
-You will also need to grab either an rgfall line list from e.g., Bob's website, or a binary master line list for use with rpunchbin.for. Examples of these files have been placed on PAC's dropbox:
+You will also need to grab either an rgfall line list from e.g., Bob's website, or a binary master line list for use with rpunchbin.for. Place these files in the data/ directory. Examples of these files have been placed on PAC's dropbox:
 
 gfall file:
 
