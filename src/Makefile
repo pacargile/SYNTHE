@@ -13,6 +13,8 @@ synthe:
 	$(FC) $(LDFLAGS)  -o rmolecasc.exe rmolecasc.o
 	$(FC) $(FFLAGS)  -o rgfall.o  rgfall.for
 	$(FC) $(LDFLAGS)  -o rgfall.exe  rgfall.o
+	$(FC) $(FFLAGS) -o rpunchbin.o rpunchbin.for
+	$(FC) $(LDFLAGS) -o rpunchbin.exe rpunchbin.o
 	$(FC) $(FFLAGS)  -o synthe.o synthe.for
 	$(FC) $(LDFLAGS) -o synthe.exe synthe.o
 	$(FC) $(FFLAGS) -o spectrv.o spectrv.for
